@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+.App {
+  text-align: center;
+}
+*{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.css-5nwj3y {
+  
+  justify-content: center;
+  color: #5D3AEA;
+}
+.css-1lojo64-MuiTypography-root {
+  margin: 0;
+  font-weight: 600 !important;
+}
+.formbody{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.formnav{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.ResumePreview{
+  border: 2px solid #5D3AEA;
+  margin: 0 auto;
+  color: black;
+  width:600px;
+  height: 890px;
+}
+#resumepic{
+  width: 72px;
+  height: 156px;
+  border:2px solid #FF0000;
+}
+#sidebox{
+  height: 700px;
+  border:2px solid #FF0000;
+}
+#resumeData{
+  margin-top: 36px;
+}
+.ResumeSection{
+  margin-bottom: 20px;
+}
+#datexp{
+   color: #73808D;
+   font-size: 9px;
+   font-weight: 400;
+}
+#description{
+  font-size: 10px;
+  font-weight: 400;
+}
+#header{
+  font-size: 14px;
+  font-weight: 500;
+  color: #61dafb;
+}
+#role{
+  font-size: 11px;
+  font-weight: 600;
+}
+#compname{
+  font-size: 11px;
+  font-weight: 400;
+}
+#name{
+  font-size: 24px;
+  font-weight: 700;
+}
+#position{
+  font-size: 12px;
+  font-weight: 400;
+}
+#details{
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  font-weight: 400;
+
+}
+#resumeheader{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left:22px;
+}
+.col-7{
+  line-height: 0.1;
+}
