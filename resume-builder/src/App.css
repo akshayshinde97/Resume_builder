@@ -46,13 +46,19 @@
   display: flex;
   justify-content: center;
 }
+.formbodywxp{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+
+}
 .formnav{
   margin: 0 auto;
   display: flex;
   justify-content: center;
 }
 .ResumePreview{
-  border: 2px solid #5D3AEA;
+  /* border: 2px solid #5D3AEA; */
   margin: 0 auto;
   color: black;
   width:600px;
@@ -65,7 +71,8 @@
 }
 #sidebox{
   height: 700px;
-  border:2px solid #FF0000;
+  /* border:2px solid #FF0000; */
+  margin: 0 auto;
 }
 #resumeData{
   margin-top: 36px;
@@ -75,24 +82,24 @@
 }
 #datexp{
    color: #73808D;
-   font-size: 9px;
+   font-size: 11px;
    font-weight: 400;
 }
 #description{
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 400;
 }
 #header{
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   color: #61dafb;
 }
 #role{
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 600;
 }
 #compname{
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 400;
 }
 #name{
@@ -100,7 +107,7 @@
   font-weight: 700;
 }
 #position{
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
 }
 #details{
@@ -119,4 +126,26 @@
 }
 .col-7{
   line-height: 0.1;
+}
+li{
+  font-weight: 500;
+  font-size: 12px;
+}
+#leetcode a{
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
+}
+#leetcode span{
+  display: flex;
+  font-size: 7px;
+}
+#github a{
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
+}
+#github span{
+  display: flex;
+  font-size: 7px;
 }

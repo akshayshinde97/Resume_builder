@@ -2,10 +2,10 @@ import React from "react";
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 
-const Contact = ({ formdata, setFormdata }) => {
+const Links = ({ formdata, setFormdata }) => {
   return (
     <div>
-      <h1>Contact</h1>
+      <h1>Links</h1>
       <Box
         component="form"
         sx={{
@@ -21,24 +21,24 @@ const Contact = ({ formdata, setFormdata }) => {
             justifyContent: "center",
           }}
         >
-          <TextField
+         <TextField
             required
             id="outlined-number"
-            label="Mobileno."
-            type="number"
-            value={formdata.mobileno}
+            label="Github"
+            type="link"
+            value={formdata.githublink}
             onChange={(e) => {
-              setFormdata({ ...formdata, mobileno: e.target.value });
+              setFormdata({ ...formdata, githublink: e.target.value });
             }}
           />
           <TextField
             required
             id="outlined-number"
-            label="Email"
-            type="email"
-            value={formdata.email}
+            label="Leetcode"
+            type="link"
+            value={formdata.leetcode}
             onChange={(e) => {
-              setFormdata({ ...formdata, email: e.target.value });
+              setFormdata({ ...formdata, leetcode: e.target.value });
             }}
           />
         </div>
@@ -47,4 +47,4 @@ const Contact = ({ formdata, setFormdata }) => {
   );
 };
 
-export default Contact;
+export default Links;

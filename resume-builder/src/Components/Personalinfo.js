@@ -40,6 +40,46 @@ const Personalinfo = ({ formdata, setFormdata }) => {
               setFormdata({ ...formdata, lastname: e.target.value });
             }}
           />
+          <TextField
+            required
+            id="outlined-number"
+            label="Mobileno."
+            type="number"
+            value={formdata.mobileno}
+            onChange={(e) => {
+              setFormdata({ ...formdata, mobileno: e.target.value });
+            }}
+          />
+          <TextField
+            required
+            id="outlined-number"
+            label="Email"
+            type="email"
+            value={formdata.email}
+            onChange={(e) => {
+              setFormdata({ ...formdata, email: e.target.value });
+            }}
+          />
+          <TextField
+            required
+            id="outlined-number"
+            label="City,Country"
+            type="Text"
+            value={formdata.address}
+            onChange={(e) => {
+              setFormdata({ ...formdata, address: e.target.value });
+            }}
+          />
+          <TextField
+            required
+            id="outlined-number"
+            label="Current-Position/HighestEducation"
+            type="Text"
+            value={formdata.position}
+            onChange={(e) => {
+              setFormdata({ ...formdata, position: e.target.value });
+            }}
+          />
         </div>
       </Box>
     </div>
