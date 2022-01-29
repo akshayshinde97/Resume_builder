@@ -18,7 +18,6 @@ const Multistepform = () => {
     "Work-Experiance",
     "Project",
     "Education",
-    // "",
     "Preview",
   ];
   const [formdata, setFromdata] = useState({
