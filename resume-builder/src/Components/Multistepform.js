@@ -4,7 +4,6 @@ import Personalinfo from "./Personalinfo";
 import Links from "./Links";
 import Skills from "./Skills";
 import WrokExperiance from "./WorkExperiance";
-import Test1 from "./Test1";
 import Button from "@mui/material/Button";
 import Resumep from "./Resumep";
 import Projects from "./Projects";
